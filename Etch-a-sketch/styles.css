@@ -1,0 +1,29 @@
+* {
+    background-color: beige;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px; /* Adjust the width as needed */
+    height: 400px; /* Set the height to match the width */
+    border: 3px solid black;
+    align-content: flex-start;
+    margin: auto;
+}
+
+.grid-item {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+}
+
+#colorPicker {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+}
+
+.logo-bg {
+    
+}
+
+.inside-logo {
+    display:flex;
+    position: relative;
+    top: -600px;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+    width: 530px
+}
+
+.logoname {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: auto;
+}
+
+.logoname {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 47px;
+    align-items: center;
+    color: white;
+    padding:1rem;
+}
